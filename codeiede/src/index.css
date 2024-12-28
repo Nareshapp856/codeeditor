@@ -1,0 +1,35 @@
+/* tailwind.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hide-scroll::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for webkit (Chrome, Safari) */
+}
+
+.hide-scroll {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.minimize-scroll-width::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+/* Target the scrollbar track */
+.minimize-scroll-width::-webkit-scrollbar-track {
+  background-color: #f5f5f5; /* Optional: Set background color */
+}
+
+/* Target the scrollbar thumb */
+.minimize-scroll-width::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Optional: Set thumb color */
+}
+
+p,
+pre {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 450;
+}

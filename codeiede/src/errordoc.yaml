@@ -1,0 +1,5 @@
+errors:
+  - code: "001"
+    type: "State Management"
+    description: "Not passing valid arguments to reducer."
+    solution: "Must pass valid arguments to examSlice/monacoSlice/setItem argument type {type: 'language', payload: 'code'}."
